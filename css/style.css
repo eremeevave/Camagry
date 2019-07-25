@@ -1,0 +1,235 @@
+* {
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*box-sizing: inherit;*/
+}
+
+body {
+    background: linear-gradient(45deg, #0FD298, #34C0E2);
+    font-family: Helvetica,Arial,sans-serif;
+    background-attachment: fixed;
+    padding-top: 60px;
+
+}
+
+.navbar {
+    margin: 0;
+/*    padding: 0;*/
+/*    top:0;*/
+/*    left:0;*/
+    display: inline-block;
+    width: 100%;
+/*    overflow: hidden;*/
+    background-color: #333;
+    /*position: fixed;*/
+/*    position: -webkit-sticky;*/
+}
+
+.navbar a {
+    color: white;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    background-color: #666;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar div{
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#logo{
+    margin: 0;
+    background-color: #333;
+}
+
+button {
+    /*background: aquamarine;*/
+    /*color: cornflowerblue;*/
+    font-weight: bold;
+    /*text-align: center;*/
+    /*border: 1px solid #34C0E2;*/
+    /*padding: 8px;*/
+    /*border-radius: 8px;*/
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.form-horizontal input {
+    padding: 8px;
+    border: 1px solid #34C0E2;
+    border-radius: 8px;
+    color: #ADB6BA;
+    width: 300px;
+}
+
+.form-horizontal {
+    background: lightcyan;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-horizontal .heading{
+    display: block;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 35px 0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 30px;
+}
+
+.form-horizontal .form-group{
+    padding: 0 40px;
+    margin: 0 0 25px 0;
+    position: relative;
+}
+
+.form-horizontal .text{
+    float: left;
+    margin-left: 7px;
+    line-height: 20px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+
+.form-horizontal .btn{
+    font-size: 14px;
+    color: #fff;
+    background: #00b4ef;
+    border-radius: 30px;
+    padding: 10px 25px;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.5s ease 0s;
+}
+
+
+/*div {*/
+/*    border: 0;*/
+/*    font: inherit;*/
+/*    font-size: 100%;*/
+/*    vertical-align: baseline;*/
+/*    display: block;*/
+/*}*/
+
+label {
+    font-size: 12px;
+    line-height: 14px;
+    color: #66696a;
+    margin-bottom: 2px;
+    display: block;
+    /*position: relative;*/
+    width: 100%;
+}
+
+.footer {
+    float: right;
+    /*position: sticky;*/
+    /*bottom: 0;*/
+}
+
+
+#sticker_gallery {
+    background-color: #bce8f1;
+    /*border-radius-: 5px;*/
+    /*padding: 5px;*/
+    margin-top: 10px;
+    height: 400px;
+    overflow: auto
+}
+
+.sticker {
+    /*border-width: 5px;*/
+    /*display: inline-block;*/
+}
+
+.sticker:hover {
+    cursor: pointer;
+    /*opacity: 0.8;*/
+}
+
+.sticker:active {
+    opacity: 0.8;
+}
+
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*!* Style the body *!*/
+/*body {*/
+/*    font-family: Arial, Helvetica, sans-serif;*/
+/*    margin: 0;*/
+/*}*/
+
+/*!* Header/logo Title *!*/
+/*.header {*/
+/*    padding: 80px;*/
+/*    text-align: center;*/
+/*    background: #1abc9c;*/
+/*    color: white;*/
+/*}*/
+
+/*!* Increase the font size of the heading *!*/
+/*.header h1 {*/
+/*    font-size: 40px;*/
+/*}*/
+
+/*!* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position *!*/
+/*.navbar {*/
+/*    overflow: hidden;*/
+/*    background-color: #333;*/
+/*    position: sticky;*/
+/*    position: -webkit-sticky;*/
+/*    top: 0;*/
+/*}*/
+
+/*!* Style the navigation bar links *!*/
+/*.navbar a {*/
+/*    float: left;*/
+/*    display: block;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    padding: 14px 20px;*/
+/*    text-decoration: none;*/
+/*}*/
+
+
+/*!* Right-aligned link *!*/
+/*.navbar a.right {*/
+/*    float: right;*/
+/*}*/
+
+/*!* Change color on hover *!*/
+/*.navbar a:hover {*/
+/*    background-color: #ddd;*/
+/*    color: black;*/
+/*}*/
+
+/*!* Active/current link *!*/
+/*.navbar a.active {*/
+/*    background-color: #666;*/
+/*    color: white;*/
+/*}*/
+
+/*!* Column container *!*/
+/*.row {*/
+/*    display: -ms-flexbox; !* IE10 *!*/
+/*    display: flex;*/
+/*    -ms-flex-wrap: wrap; !* IE10 *!*/
+/*    flex-wrap: wrap;*/
+/*}*/
