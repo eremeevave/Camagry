@@ -22,6 +22,7 @@ class Database {
 
     //
     public function query($sql, $params = []) {
+        debug(sql);
         $stmt = $this->db->prepare($sql);
         if (!empty($params)) {
             //Защита от SQL иньекции. Теперь нельзя будет просто в поле поиск по id вписать и выполнить “2; DELETE FROM users”

@@ -19,9 +19,9 @@
                     for($i=3; $i < count($images);$i++){ //запускаем перебор массива в цикле
                         $image=$dir.$images[$i]; // получаем в переменную путь к файлу
 //                        debug(substr($image, 1));
-                        if(exif_imagetype($image)){ // проверяем является ли файл картинкой
+                        // if(exif_imagetype($image)){ // проверяем является ли файл картинкой
                             echo '<figure class = "col-md-6 stikcer_figure"><img class="sticker" onclick = "chooseSticker(this)" src="'.substr($image, 1).'"height="100"></figure>'; // выводим картинку
-                        }
+                        // }
                     }
                 }
                 ?>
